@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .row {
+    margin: 0;
+  }
+  
+  .container {
+    padding: 30px 10px;
+  }
+  
+  p, li {
+    color: #444;
+    font-size: 16px;
+  }
+
+#header {
+    width: 100%;
+    background-color: transparent;
+    transition: background ease .2s;
+}
+
+
+#header .navbar-collapse {
+    width: 100%;
+    justify-content: end;
+}
+
+#header .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 15px;
+    color: rgb(17, 17, 17);
+    margin-right: 15px;
+    border-bottom: solid 4px transparent;
+}
+
+#header .nav-link:hover{
+    border-bottom: solid 4px var(--secondary);
+    color: var(--secondary);
+}
+
+#slider {
+    background: url(../assets/slider-bg.svg) no-repeat center bottom;
+    background-size: contain;
+}
+
+#slider h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#slider h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
