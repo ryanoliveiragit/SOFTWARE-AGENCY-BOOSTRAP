@@ -6,6 +6,13 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
+a {
+    color: var(--primary);
+}
+
+a:hover {
+    color: var(--secondary);
+}
 .subtitle {
     color: var(--medium);
     font-weight: 200;
