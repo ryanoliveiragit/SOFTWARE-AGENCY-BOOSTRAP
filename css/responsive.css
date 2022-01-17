@@ -12,6 +12,14 @@
     #header .navbar-collapse {
         width: 100%;
     }
+
+    #clientes .cliente-texto .imagem {
+        padding: 10px 0 30px 0;
+    }
+
+    #clientes .cliente-texto .imagem img {
+        max-width: 150px;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -21,5 +29,12 @@
 
     #servicos a.destaque .img-container img{
         height: 120px;
+    }
+    #clientes .cliente-texto .imagem {
+        padding: 10px 0 30px 0;
+    }
+
+    #clientes .cliente-texto .imagem img {
+        max-width: 150px;
     }
 }
